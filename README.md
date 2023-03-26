@@ -1,4 +1,10 @@
-A Humidus Rivus tem como objetivo reduzir o consumo de água em ambientes empresariais por meio da reutilização da água da chuva e outras fontes alternativas.
+# [Rivus](https://github.com/Humidus-Solutions/)
+
+<br><br>
+
+## Introdução
+
+ A Humidus Rivus tem como objetivo reduzir o consumo de água em ambientes empresariais por meio da reutilização da água da chuva e outras fontes alternativas.
  Visamos ajudar as empresas a reduzirem suas despesas com água e esgoto e contribuir para a preservação do meio ambiente.
  Este é um projeto desenvolvido Grupo <b>Humidus Rivus</b> como sequencia de estudos da disciplina de <b>Pesquisa e Inovação</b> do curso de Análise e Desenvolvimento de Sisitemas da Faculdade de Tecnologia São Paulo Tech School (SPTECH).
 
