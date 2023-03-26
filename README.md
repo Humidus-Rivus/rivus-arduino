@@ -16,41 +16,24 @@ Rivus é um sistema de reutilização de água com sensores de bloqueio para aju
 
 <br>
 
-## [Simulador Financeiro](https://github.com/Humidus-Solutions/)
-Para analisar os arquivos localmente:
-
-**1. Clone o repositório em sua máquina local usando o comando**:
-```
-git clone https://github.com/Humidus-Solutions/RIVUS-Website.git
-```
-
-**2. Vá para o diretório do site**:
-```
-cd nome_da_pasta
-```
-    
-**3. Abre a página em seu navegador**:
-```
-start simulador_financeiro.html
-```
-
-<br>
 
 ## Tecnologias utilizadas
-**Design | UX/UI**:
-```
-HTML, CSS e Figma
 
-```
 **Linguagens**:
-```
-JavaScript
-```
+    ```
+    C++
+    ```
+    
+<br>
 
-**Slides**:
-```
-Canvas
-```
+## Hardware e Componentes utilizados:
+**Arduino UNO**:
+    ```
+    Sensores de Bloqueio TCRT5000
+    Resistores
+    Jumpers
+    Protoboard
+    ```
     
 <br>
 
@@ -81,4 +64,3 @@ Canvas
 ## Licença
 
 [MIT](LICENSE) © 2023 Solutech 
-
