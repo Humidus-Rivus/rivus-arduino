@@ -4,19 +4,20 @@
 
 ## Introdução
 
- A Humidus Rivus tem como objetivo reduzir o consumo de água em ambientes empresariais por meio da reutilização da água da chuva e outras fontes alternativas.
- Visamos ajudar as empresas a reduzirem suas despesas com água e esgoto e contribuir para a preservação do meio ambiente.
- Este é um projeto desenvolvido Grupo <b>Humidus Rivus</b> como sequencia de estudos da disciplina de <b>Pesquisa e Inovação</b> do curso de Análise e Desenvolvimento de Sisitemas da Faculdade de Tecnologia São Paulo Tech School (SPTECH).
+A Humidus Rivus tem como objetivo reduzir o consumo de água em ambientes empresariais por meio da reutilização da água da chuva e outras fontes alternativas.
+ 
+Este é um projeto desenvolvido Grupo <b>Humidus Rivus</b> como sequencia de estudos da disciplina de <b>Pesquisa e Inovação</b> do curso de ADS da São Paulo Tech School (SPTECH).
 
-<br><br><br><br>
+<br><br>
 
 ## Sobre
 
-Rivus é um sistema de reutilização de água com sensores de bloqueio pode ajudar a empresa a economizar água e, consequentemente, reduzir as despesas com água e esgoto. O sistema de reutilização de água consistirá em um tanque de armazenamento de água da chuva ou outra fonte alternativa, um sistema de tratamento de água, uma bomba de água, e sensores de bloqueio para controlar o consumo de água. Os sensores serão programados para <b>desligar a água automaticamente após um determinado período de tempo</b> e <b>detectar a presença ou ausência de água no tanque</b>.
+Rivus é um sistema de reutilização de água com sensores de bloqueio para ajudar as empresas a economizar água e, consequentemente, reduzir as despesas com água e esgoto. Os sensores serão programados para <b>desligar a água automaticamente após um determinado período de tempo</b> e <b>detectar a presença ou ausência de água no tanque</b>.
 
 <br>
 
-## Simulador Financeiro
+## [Simulador Financeiro](https://github.com/Humidus-Solutions/)
+Para analisar os arquivos localmente:
 
 **1. Clone o repositório em sua máquina local usando o comando**:
 ```
@@ -43,29 +44,13 @@ HTML, CSS e Figma
 ```
 **Linguagens**:
 ```
-JavaScript e C++
+JavaScript
 ```
-    
-**Placa**:
-```
-Arduino UNO
-```
-
 
 **Slides**:
 ```
 Canvas
 ```
-    
-<br>
-
-## Hardware e Componentes utilizados:
-
-    Arduino UNO
-    Protoboard
-    1 Sensor de luminosidade LDR 5mm
-    1 Resistor de ??? ohms
-    Jumpers para conexões com o Arduino
     
 <br>
 
