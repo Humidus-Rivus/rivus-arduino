@@ -28,11 +28,11 @@ const serial = async (
             {
                 // altere!
                 // CREDENCIAIS DO BANCO - MYSQL WORKBENCH
-                
-                host: "10.18.34.124",
-                database: "aquatech",
-                user: "teste",
-                password: "senha123",
+
+                host: "10.18.34.178",
+                database: "Rivus",
+                user: "Rivus",
+                password: "rivus123",
             }
         ).promise();
     } else if (AMBIENTE == 'producao') {
@@ -59,7 +59,7 @@ const serial = async (
     arduino.pipe(new serialport.ReadlineParser({ delimiter: '\r\n' })).on('data', async (data) => {
         //console.log(data);
         const valores = data.split(';');
-        const chave = parseInt(valores[4]);
+        const chave = parseInt(valores[0]);
         valoresChave.push(chave);
 
         if (HABILITAR_OPERACAO_INSERIR) {
