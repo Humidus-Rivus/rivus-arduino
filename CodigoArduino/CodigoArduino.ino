@@ -20,8 +20,10 @@ void loop() {
         Serial.println("Baixo");
       } else if(randNumber == 1 && randNumber2 == 1 && randNumber3 == 0){
         Serial.println("Medio");
-      } else {
+      } else if(randNumber == 1 && randNumber2 == 1 && randNumber3 == 1){
         Serial.println("Cheio");
+      } else {
+        return loop;
       }
         
     } else {
