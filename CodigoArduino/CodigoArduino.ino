@@ -6,7 +6,6 @@ long randNumber2;
 long randNumber3;
 void setup() {
   Serial.begin(9600);
-  pinMode(pushButton, INPUT);
   randomSeed(digitalRead(0));
 }
 
@@ -17,11 +16,11 @@ void loop() {
     randNumber3 = rand()%2;
     if(randNumber2 <= randNumber && randNumber3 <= randNumber2 && randNumber3 <= randNumber){
       if(randNumber == 1 && randNumber2 == 0 && randNumber3 == 0){
-        Serial.println("Baixo");
+        Serial.println("1");
       } else if(randNumber == 1 && randNumber2 == 1 && randNumber3 == 0){
-        Serial.println("Medio");
+        Serial.println("2");
       } else if(randNumber == 1 && randNumber2 == 1 && randNumber3 == 1){
-        Serial.println("Cheio");
+        Serial.println("3");
       } else {
         return loop;
       }
@@ -31,7 +30,7 @@ void loop() {
       }
       
   } else {
-    Serial.println("Vazio");
+    Serial.println("0");
   }
   delay(2000);
 }

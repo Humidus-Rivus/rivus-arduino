@@ -29,8 +29,8 @@ const serial = async (
                 // altere!
                 // CREDENCIAIS DO BANCO - MYSQL WORKBENCH
 
-                host: "10.18.34.178",
-                database: "Rivus",
+                host: "localhost",
+                database: "rivus",
                 user: "Rivus",
                 password: "rivus123",
             }
@@ -69,7 +69,7 @@ const serial = async (
                 // -> altere nome da tabela e colunas se necessário
                 // Este insert irá inserir dados de fk_aquario id=1 (fixo no comando do insert abaixo)
                 // >> Importante! você deve ter o aquario de id 1 cadastrado.
-                sqlquery = `INSERT INTO historico (horario, sensor, fkCisterna) VALUES (now(), ${chave} 1)`;
+                sqlquery = `INSERT INTO medida (${chave}, momento, fk_cisterna) VALUES (${chave}, now(), 1)`;
 
                 // CREDENCIAIS DO BANCO REMOTO - SQL SERVER
                 // Importante! você deve ter criado o usuário abaixo com os comandos presentes no arquivo
@@ -93,7 +93,7 @@ const serial = async (
                 // Este insert irá inserir dados de fk_aquario id=1 (fixo no comando do insert abaixo)
                 // >> você deve ter o aquario de id 1 cadastrado.
                 await poolBancoDados.execute(
-                    `INSERT INTO historico (horario, sensor, fkCisterna) VALUES (now(), ?, 1)`,
+                    `INSERT INTO medida (chave, momento, fk_cisterna) VALUES (?, now(), 1)`,
                     [chave]
                 );
                 console.log("valores inseridos no banco: ", chave)
